@@ -23,9 +23,7 @@
 a{
     text-decoration: none;
 }
-ul li{
-    list-style: none;
-}
+
 
 /* Shared Style*/
 .color_1{
@@ -77,6 +75,9 @@ nav ul{
     display: flex;
     gap: 40px;
 }
+nav ul li{
+    list-style: none;
+}
 nav ul li a{
     color: #7b7c80;
     
@@ -122,7 +123,11 @@ nav .first_child a{
     gap: 20px;
     justify-content: center;
 }
-
+.plants_products_card_items{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
 .plants_card_img {
     padding-bottom: 20px;
     width: 248px;
@@ -131,11 +136,11 @@ nav .first_child a{
     font-size: 19px;
     font-weight: 500;
 }
-.plants_product_price{
+.plants_product_price {
     font-size: 22px;
     font-weight: bold;
     margin-top: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 .plants_card_button {
     background-color: #E95A08;
@@ -145,9 +150,34 @@ nav .first_child a{
     border: none;
 }
 
+/*  */
+.plants_container {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 150px;
+}
+
+.plants_container_img{
+    position: relative;
+}
+.trusted_img {
+    width: 252px;
+    position: absolute;
+    top: -85px;
+    right: -75px;
+}
+.plants_lover_list {
+    width: 430px;
+}
+.plants_lover_list li {
+    padding: 15px 4px;
+}
+
 /* -------------------Responsive CSS------------------- */
 
-/* Header nav Responsive */
+/* Header nav */
 @media screen and (max-width:640px) {
     nav, .banner_section {
         margin: 0px 18px;
@@ -160,17 +190,17 @@ nav .first_child a{
     }
 }
 
-/* Main Responsive */
+/* Main */
 @media screen and (max-width:640px) {
     .section_title{
-        font-weight: 24px;
+        font-size: 24px;
     }
     .section_description{
         font-size: 14px;
     }
 }
 
-/* Banner Section Responsive */
+/* Banner Section */
 @media screen and (max-width:640px) {
     .banner_section {
         flex-direction: column-reverse;
@@ -187,3 +217,58 @@ nav .first_child a{
         font-size: 14px;
     }
 }
+
+/* Plants Section */
+@media screen and (max-width:640px) {
+    .ourplants_section {
+        padding: 60px 0;
+    }
+    .ourplants_section_text {
+        width: 336px;
+        padding: 0;
+    }
+    .plants_products_card {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .plants_card_img {
+        width: 170px;
+    }
+    .plants_product_title{
+        font-size: 16px;
+    }
+    .plants_product_price{
+        font-size: 18px;
+    }
+    .plants_card_button {
+        padding: 16px 40px;
+        font-size: 13px;
+    }
+}
+/* Plant Lover Section */
+@media screen and (max-width: 640px) {
+    .plants_container {
+        flex-direction: column;
+        margin: 0;
+    }
+    .store_img{
+        width: 358px;
+    }
+    .trusted_img {
+        display: none;
+    }
+    .plants_container_text {
+        margin-left: 25px;
+    }
+    .plants_lover_list {
+        width: 345px;
+    }
+    .plants_lover_list li {
+        padding: 10px 4px;
+    }
+    
+}
+
+
+
