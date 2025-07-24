@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 
 
+*{
+    margin: 0;
+}
 .noto {
   font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
@@ -16,7 +19,15 @@
   font-style: normal;
 }
 
-/* Shared Style Color*/
+
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+
+/* Shared Style*/
 .color_1{
     color: #000000;
 }
@@ -32,3 +43,44 @@
     color: #7b7c80;
 }
 
+
+/* Header Section */
+header{
+    background-color: #f5f8ff;
+    padding: 20px 0;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 150px;
+}
+.nav_logo {
+    width: 100px;
+}
+nav ul{
+    display: flex;
+    gap: 40px;
+}
+nav ul li a{
+    color: #7b7c80;
+    
+}
+nav .first_child a{
+    font-weight: bold;
+    color: #2e2432;
+}
+
+/* Responsive CSS */
+@media screen and (max-width:640px) {
+    nav {
+        margin: 0px 15px;
+    }
+    .nav_logo {
+        width: 80px;
+        }
+    nav ul li{
+        display: none;
+    }
+    
+}
