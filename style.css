@@ -43,6 +43,21 @@ ul li{
     color: #7b7c80;
 }
 
+.section_title{
+    font-size: 50px;
+    font-family: "Noto Serif", serif;
+    font-weight: bold;
+}
+.section_description{
+    font-size: 19px;
+    color: #7b7c80;
+    font-family: "Inter", sans-serif;
+}
+
+
+body{
+    background-color: #f5f8ff;
+}
 
 /* ----------Header Section---------- */
 header{
@@ -73,16 +88,14 @@ nav .first_child a{
 
 /* -------------------Main Website------------------- */
 
-/* Banner Section */
-main{
-    background-color: #f5f8ff;
-}
+/* ----------Banner Section---------- */
 .banner_section{
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
     margin: 0 150px;
     padding-top: 180px;
+    padding-bottom: 40px;
 }
 
 .banner_title{
@@ -93,15 +106,51 @@ main{
     margin-top: 13px;
 }
 
+/* ----------Our Plants Section---------- */
+.ourplants_section {
+    padding: 80px 0;
+    text-align: center;
+}
+.ourplants_section_text {
+    width: 730px;
+    margin: auto;
+    padding: 16px 126px;
+}
+.plants_products_card{
+    padding: 20px 0;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
 
-
+.plants_card_img {
+    padding-bottom: 20px;
+    width: 248px;
+}
+.plants_product_title{
+    font-size: 19px;
+    font-weight: 500;
+}
+.plants_product_price{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.plants_card_button {
+    background-color: #E95A08;
+    color: #ffffff;
+    padding: 15px 77px;
+    font-weight: 600;
+    border: none;
+}
 
 /* -------------------Responsive CSS------------------- */
 
 /* Header nav Responsive */
 @media screen and (max-width:640px) {
-    nav {
-        margin: 0px 15  px;
+    nav, .banner_section {
+        margin: 0px 18px;
     }
     .nav_logo {
         width: 80px;
@@ -109,5 +158,32 @@ main{
     nav ul li{
         display: none;
     }
-    
+}
+
+/* Main Responsive */
+@media screen and (max-width:640px) {
+    .section_title{
+        font-weight: 24px;
+    }
+    .section_description{
+        font-size: 14px;
+    }
+}
+
+/* Banner Section Responsive */
+@media screen and (max-width:640px) {
+    .banner_section {
+        flex-direction: column-reverse;
+        padding-top: 28px;
+    }
+    .banner_image{
+        max-width: 100%;
+    }
+    .banner_title{
+        font-size: 24px;
+        padding-top: 25px;
+    }
+    .banner_description{
+        font-size: 14px;
+    }
 }
