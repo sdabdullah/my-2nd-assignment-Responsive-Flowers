@@ -44,7 +44,7 @@ ul li{
 }
 
 
-/* Header Section */
+/* ----------Header Section---------- */
 header{
     background-color: #f5f8ff;
     padding: 20px 0;
@@ -56,7 +56,7 @@ nav {
     margin: 0 150px;
 }
 .nav_logo {
-    width: 100px;
+    width: 115px;
 }
 nav ul{
     display: flex;
@@ -71,10 +71,37 @@ nav .first_child a{
     color: #2e2432;
 }
 
-/* Responsive CSS */
+/* -------------------Main Website------------------- */
+
+/* Banner Section */
+main{
+    background-color: #f5f8ff;
+}
+.banner_section{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 0 150px;
+    padding-top: 180px;
+}
+
+.banner_title{
+    font-size: 60px;
+}
+.banner_description{
+    font-size: 19px;
+    margin-top: 13px;
+}
+
+
+
+
+/* -------------------Responsive CSS------------------- */
+
+/* Header nav Responsive */
 @media screen and (max-width:640px) {
     nav {
-        margin: 0px 15px;
+        margin: 0px 15  px;
     }
     .nav_logo {
         width: 80px;
