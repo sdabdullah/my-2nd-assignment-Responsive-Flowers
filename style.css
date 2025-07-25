@@ -86,6 +86,9 @@ nav .first_child a{
     font-weight: bold;
     color: #2e2432;
 }
+span.nav_cart {
+    font-size: 18px;
+}
 
 /* -------------------Main Website------------------- */
 
@@ -259,10 +262,11 @@ nav .first_child a{
         display: none;
     }
     .plants_container_text {
-        margin-left: 25px;
+        margin-left: 9px;
     }
     .plants_lover_list {
         width: 345px;
+        padding-left: 22px;
     }
     .plants_lover_list li {
         padding: 10px 4px;
