@@ -153,7 +153,6 @@ span.nav_cart {
     border: none;
 }
 
-/*  */
 .plants_container {
     display: flex;
     gap: 60px;
@@ -177,6 +176,49 @@ span.nav_cart {
 .plants_lover_list li {
     padding: 15px 4px;
 }
+
+/* Footer Section */
+.footer_section {
+    background-color: #fafbff;
+}
+.footer_descripton {
+    width: 338px;
+    font-size: 22px;
+    margin-top: 16px;
+}       
+.footer_items {
+    margin: 0 150px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+.footer_descripton{
+    width: 300px;
+}
+.footer_nav {
+    display: flex;
+    gap: 80px;
+}
+.footer_nav ul li {
+    list-style: none;
+    line-height: 55px;
+    font-family: inter, sans-serif;
+}
+.footer_nav ul li a{
+    text-decoration: none;
+    color: #7b7c80;
+}
+.footer_social_icon {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    padding-left: 0;
+}
+.footer_social_list ul li{
+    list-style-type: none;
+}
+
+
 
 /* -------------------Responsive CSS------------------- */
 
