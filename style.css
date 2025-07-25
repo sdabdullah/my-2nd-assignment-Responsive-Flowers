@@ -176,28 +176,146 @@ span.nav_cart {
 .plants_lover_list li {
     padding: 15px 4px;
 }
+/* ----------Latest Deals Section---------- */
+.latest_deals_section{
+    padding: 100px 0;
+}
+.deals_item{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 0 150px;
+}
+.latest_deals_container h3{
+    text-align: center;
+}
+.latest_deals_container p {
+    text-align: center;
+    width: 730px;
+    margin: auto;
+    margin-top: 16px;
+    margin-bottom: 90px;
+}
+#deal_left_item{
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+}
+.deal_60{
+    background-image: url(./assets/deal-bloom.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    
+}
+.left_deal_overly {
+    background-color: #0000006a;
+    padding: 62px 0;
+    text-align: center;
+    border-radius: 25px;
+    width: 315px;
+}
+.left_deal_overly h3 {
+    color: #fff;
+    margin-bottom: 19px;
+    font-weight: bold;
+}
+.left_deal_overly p{
+    color: #fff;
+}
+.left_deal_button {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
 
-/* Footer Section */
+.deal_30{
+    background-image: url(./assets/deal-ana.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+}
+
+.deal_25{
+    background-image: url(./assets/deal-zabo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+}
+.right_deal_overly {
+    background-color: #0000006a;
+    padding: 156px 0;
+    border-radius: 25px;
+    width: 718px;
+    text-align: center;
+    color: #fff;
+}
+.right_deal_overly h3{
+    font-size: 40px;
+}
+.right_deal_button{
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+    border-bottom: 1px solid #fff;
+}
+
+/* ----------Join Section---------- */
+.join_section{
+    text-align: center;
+    background-image: url(./assets/news-letter-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 190px 0;
+}
+.join_call_to_action {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 17px;
+}
+
+input[type="email"] {
+    width: 590px;
+    padding: 15px 20px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+}
+input[type="email"] ::placeholder{
+    color: #808080;
+}
+
+input[type="button"] {
+    padding-top: 15px;
+    padding-bottom: 16px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #e95a08;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "inter", serif;
+}
+/* ----------Footer Section---------- */
 .footer_section {
     background-color: #fafbff;
 }
 .footer_descripton {
-    width: 338px;
-    font-size: 22px;
+    width: 315px;
+    font-size: 20px;
     margin-top: 16px;
-}       
+}      
 .footer_items {
     margin: 0 150px;
     display: flex;
     justify-content: space-between;
     padding: 50px 0;
 }
-.footer_descripton{
-    width: 300px;
-}
 .footer_nav {
     display: flex;
-    gap: 80px;
+    gap: 60px;
 }
 .footer_nav ul li {
     list-style: none;
@@ -217,8 +335,6 @@ span.nav_cart {
 .footer_social_list ul li{
     list-style-type: none;
 }
-
-
 
 /* -------------------Responsive CSS------------------- */
 
