@@ -224,7 +224,7 @@ span.nav_cart {
 /* Plants Section */
 @media screen and (max-width:640px) {
     .ourplants_section {
-        padding: 60px 0;
+        padding: 60px 0 40px 0;
     }
     .ourplants_section_text {
         width: 336px;
@@ -254,6 +254,7 @@ span.nav_cart {
     .plants_container {
         flex-direction: column;
         margin: 0;
+        gap: 20px;
     }
     .store_img{
         width: 358px;
