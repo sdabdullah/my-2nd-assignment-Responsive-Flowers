@@ -433,5 +433,54 @@ input[type="button"] {
     
 }
 
+/* Last 3 Section */
+@media screen and (max-width:640px) {
+    .latest_deals_container p {
+        width: 336px;
+    }
+    .deals_item {
+        margin: 0;
+    }
+    .deals_item {
+    flex-direction: column;
+}
+.left_deal_overly {
+    width: 100%;
+}
+.right_deal_overly h3 {
+    font-size: 20px;
+}
+.right_deal_button {
+    font-size: 16px;
+}
+.right_deal_overly {
+    padding: 62px 0;
+    width: 100%;
+}
+.deals_item {
+    padding: 0 20px;
+}
+.join_call_to_action {
+    font-size: 20px;
+}
+input[type="email"] {
+    width: 201px;
+}
+input[type="button"] {
+    padding-left: 28px;
+    padding-right: 28px;
+}
+.join_section {
+    padding: 86px 0;
+}
+.footer_items {
+    margin: 0;
+    flex-direction: column;
+}
+
+    
+
+}
+
 
 
